@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Trae rules
+.trae/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Data files (keep structure but ignore sensitive data)
+blog-system/server/data/github-pages.json
+blog-system/server/data/deleted-records.json
+
+# Keep admin.json for default login
+!blog-system/server/data/admin.json
